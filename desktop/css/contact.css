@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+form {
+	width: 50%;
+	margin: 5% auto;
+	background: #253030;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.div {
+	margin: 10%;
+}
+
+.required {
+    color: #707070;
+    font-size: 12px;
+	margin-left: 26%;
+}
+
+.titlef {
+	font-size: 30px;
+	color: #9FA07F;
+	margin-left: 26%;
+}
+
+.name {
+    width: 50%;
+    height: 40px;
+    margin: 1% auto 2.5% 26%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	background: #212c2c;
+	color: #9FA07F;
+}
+
+.email {
+    width: 50%;
+    height: 40px;
+    margin: 1% auto 2.5% 26%;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	background: #212c2c;
+	color: #9FA07F;
+}
+
+.message {
+    width: 50%;
+    height: 80px;
+    margin: 1% auto 2.5% 26%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	background: #212c2c;
+	color: #9FA07F;
+}
+
+.submit-button {
+    margin: 0 auto 0 42%;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 27px;
+    color: #9FA07F;
+	background: #253030;
+	border-radius: 5px;
+    -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.submit-button:hover {
+	border: transparent;
+	background: #9FA07F;
+    color: #253030;
+    -webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.privacy {
+	font-family: "Russo One", sans-serif;
+    color: #9FA07F;
+    padding: 3% 0;
+    max-width: 70%;
+    margin: auto;
+    font-size: 12px;
+	text-align: center;
+}
