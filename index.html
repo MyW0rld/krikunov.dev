@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Redirect</title>
+	
+<style>
+	body {
+		background-color: #253030;
+		color: #9FA07F;
+	}
+	
+	@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+	
+	h1 {
+		font-family: "Russo One", sans-serif;
+	}
+</style>
+
+    <script>
+        function redirectBasedOnDevice() {
+            if (window.innerWidth <= 800) {
+                window.location.href = "mobile/index.html";
+            } else {
+                window.location.href = "desktop/index.html";
+            }
+        }
+        window.onload = redirectBasedOnDevice;
+    </script>
+</head>
+<body>
+    <h1>Redirecting based on device...</h1>
+</body>
+</html>
