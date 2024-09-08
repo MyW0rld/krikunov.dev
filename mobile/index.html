@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="imgs/icon.jpg" type="image/x-icon">
+    <title>Home</title>
+	
+	<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("imgs/main.jpg");
+  min-height: 80%;
+}
+.bgimg-2 {
+  background-image: url("imgs/main2.jpg");
+  min-height: 80%;
+}
+.bgimg-3 {
+  background-image: url("imgs/main3.jpg");
+  min-height: 80%;
+}
+.bgimg-4 {
+  background-image: url("imgs/main.jpg");
+  min-height: 80%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+</style>
+</head>
+
+<body style="background-color: #253030;">
+
+<div class="menu">
+	<nav>
+      <ul>
+	  <h1 class="title">Nick Krikunov</h1>
+	  <div id="myLinks">
+        <a class="a" href="index.html">Home</a>
+		<a class="a" href="portfolio.html">Portfolio</a>
+		<a class="a" href="bio.html">Bio</a>
+		<a class="a" href="contact.html">Contact</a>
+	  </div>
+	    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </ul>
+    </nav>
+</div>
+
+<!-- Scroll Parallax Effect -->
+	<div class="bgimg-1"></div>
+
+	<div class="div" style="color: #9FA07F; background-color: #253030; text-align: center; padding: 25px 25px; text-align: justify;">
+	  <h3 style="text-align: center; color: #9FA07F; letter-spacing: 2px;">My Bio</h3>
+	  <p>
+			Nikita Krikunov is a Polish-Belarusian self-taught photographer, a student in an informatics-physics-mathematics class, and a lover of the art of photography. He was born into a creative family... <br><a href="bio.html" class="more-photos">Read More</a></br>
+		</p>
+	</div>
+
+	<div class="bgimg-2">
+	  <div class="caption">
+	  <span class="border" style="background-color: transparent; font-size: 25px; color: #f7f7f7;">LESS HEIGHT</span>
+	  </div>
+	</div>
+
+	<div style="position: relative;" class="div">
+	  <div style="color: #9FA07F; background-color: #253030; text-align: center; padding: 25px 25px; text-align: justify;">
+	  <h3 style="text-align: center; color: #9FA07F; letter-spacing: 2px;">My Style</h3>
+	  <p>
+			Nikita is a person of his time. He combines a love for computers and art. He studies mathematics, physics, and informatics, loves programming, creates websites, and... <br><a href="bio.html" class="more-photos">Read More</a></br>
+		</p>
+	  </div>
+	</div>
+
+	<div class="bgimg-3">
+	  <div class="caption">
+	  <span class="border" style="background-color: transparent; font-size: 25px; color: #f7f7f7;">SCROLL UP</span>
+	  </div>
+	</div>
+
+	<div style="position: relative;">
+	  <div style="color: #9FA07F; background-color: #253030; text-align: center; padding: 50px 25px; text-align: justify;">
+	  <p style="text-align: center;">Check out <a class="more-photos" href="portfolio.html">here</a> for more photos</p>
+	  </div>
+	</div>
+
+	<div class="bgimg-4">
+	  <div class="caption">
+	  <span class="border">COOL!</span>
+	  </div>
+	</div>
+<!-- Scroll Parallax Effect (end) -->
+
+	<footer style="margin-top: auto;">
+		<a href="mailto:paython2796@gmail.com" class="fa fa-mail" target="_blank">✉</a>
+		<a href="https://www.linkedin.com/in/nikita-krikunov/" class="fa fa-linkedin" target="_blank"></a>
+		<p>©Nikita Krikunov</p>
+	</footer>
+<script src="menu.js"></script>
+</body>
+</html>

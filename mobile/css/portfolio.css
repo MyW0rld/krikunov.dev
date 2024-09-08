@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: auto;
+  justify-content: space-around; /* change this line */
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%; /* adjust this line */
+  flex-grow: 1;
+  padding: 0 4px;
+  gap: 10px;
+}
+
+.photo {
+  margin: 4px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+.name {
+	font-family: "Russo One", sans-serif;
+	text-align: center;
+	margin: 2% 0 4% 0;
+	color: #9FA07F;
+	letter-spacing: 2px;
+}
+
+form {
+	width: 100%;
+	margin: 40% 0 20% 0;
+	background: #253030;
+	padding: 30px;
+}
+
+.page-selector {
+	display: flex;
+	justify-content: center;
+}
+
+.page {
+	color: #9FA07F;
+	text-decoration: none;
+	margin: 0 2.5px;
+}
+
+.page-active {
+	text-decoration: underline;
+	margin: 0 2.5px;
+}
+
+/* Media queries to adjust the layout for smaller screens */
+@media screen and (max-width: 800px) {
+  .column {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex-basis: 100%;
+  }
+}

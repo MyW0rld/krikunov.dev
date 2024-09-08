@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body, html {
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+form {
+	width: 100%;
+	margin: 30% 0 0 0;
+	background: #253030;
+	padding: 10px;
+}
+
+.div {
+	margin: auto;
+	color: #9FA07F;
+	font-size: 14px;
+}
